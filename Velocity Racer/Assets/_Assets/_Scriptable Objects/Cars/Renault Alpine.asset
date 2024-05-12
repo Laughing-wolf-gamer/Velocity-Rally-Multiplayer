@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Renault Alpine
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 604cbe310fb23654fb3a5b0a87b99254, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 16
+    cashUpgradeAmount: 1563
+    coinUpgradeAmount: 1792
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 120
+      accelaration: 9.45
+      turn: 6.53
+  coinsPrice: 15985
+  carBodyFull: {fileID: 4095353114696539688, guid: bce3f18d5cd84b144a9d6e81fa775944,
+    type: 3}
+  carDetailsLIst:
+  - Heading: Top Speed
+    details: 120 km/h
+  - Heading: Accelration
+    details: 9.45  m/h
+  - Heading: Turn
+    details: 6.53 m/s

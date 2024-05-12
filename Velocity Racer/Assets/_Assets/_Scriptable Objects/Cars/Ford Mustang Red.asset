@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Ford Mustang Red
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 9d0a805cca9764e42b622f405054e311, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 19
+    cashUpgradeAmount: 1524
+    coinUpgradeAmount: 1698
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 120
+      accelaration: 9
+      turn: 6
+  coinsPrice: 15309
+  carBodyFull: {fileID: 8972681472891333039, guid: 293b5081975d9474a99dc92cc9dd5f22,
+    type: 3}
+  carDetailsLIst:
+  - Heading: Top Speed
+    details: 120 km/h
+  - Heading: Accelration
+    details: 9 m/s
+  - Heading: Turn
+    details: 6 m/s

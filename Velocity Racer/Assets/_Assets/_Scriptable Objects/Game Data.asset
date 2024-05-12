@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8600a3c9610bacb46a9b778bd8112c23, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  socialMediaProfilePicture: {fileID: 0}
+  playerNameFromSocialMedia: 
+  OnPc: 0
+  levelSystem: {fileID: 11400000, guid: c683e2a821dc78343b57a3b998c4d715, type: 2}
+  saveData:
+    isLoggedIn: 0
+    currentDay: 0
+    totalCash: 0
+    totalCoins: 0
+    carType: 0
+    profileSaveData:
+      uniqueIdNumber: 
+      matchWonNumber: 0
+      totalRacesJoined: 0
+      medalsTotalRecived: 0
+      totalGoldTropy: 0
+      totalTimePlayed: 0
+    settingsSaveData:
+      firstRun: 1
+      firstRace: 1
+      hasAdsInGame: 1
+      isReviewd: 1
+      isVFXOn: 1
+      isHapticsOn: 1
+      musicVolumeAmount: 1
+      sfxVolumeAmount: 1
+      quaityIndex: 0
+      frameRate: 60
+      speedIsKmph: 1
+      showNetworkPing: 1
+      regionName: asia
+      controllType: 0
+      controllsSensitivity: 10
+    dailyRewards:
+      isClamedDailyBonus: 0
+      DailyBonusAlreadyShown: 0
+    trackSaveDatasList:
+    - locked: 0
+      trackIndex: 0
+    - locked: 1
+      trackIndex: 1
+    - locked: 1
+      trackIndex: 2
+    - locked: 1
+      trackIndex: 3
+    - locked: 1
+      trackIndex: 4
+    - locked: 1
+      trackIndex: 5
+    - locked: 1
+      trackIndex: 6
+    - locked: 1
+      trackIndex: 7
+    - locked: 1
+      trackIndex: 8
+    - locked: 1
+      trackIndex: 9
+    - locked: 1
+      trackIndex: 10
+    - locked: 1
+      trackIndex: 11
+    - locked: 1
+      trackIndex: 12
+    - locked: 1
+      trackIndex: 13
+    - locked: 1
+      trackIndex: 14
+    - locked: 1
+      trackIndex: 15
+    carSaveDatas:
+    - isLocked: 1
+      carTypeShopIndex: 1
+      cashUpgradeAmount: 1576
+      coinUpgradeAmount: 1403
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 119.7
+        accelaration: 7
+        turn: 7
+    - isLocked: 0
+      carTypeShopIndex: 0
+      cashUpgradeAmount: 1430
+      coinUpgradeAmount: 1769
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 115
+        accelaration: 7
+        turn: 6
+    - isLocked: 1
+      carTypeShopIndex: 2
+      cashUpgradeAmount: 1456
+      coinUpgradeAmount: 1825
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 110
+        accelaration: 6.13
+        turn: 5.6
+    - isLocked: 1
+      carTypeShopIndex: 7
+      cashUpgradeAmount: 1720
+      coinUpgradeAmount: 1599
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 112.4
+        accelaration: 7.4
+        turn: 5.7
+    - isLocked: 1
+      carTypeShopIndex: 11
+      cashUpgradeAmount: 1836
+      coinUpgradeAmount: 1669
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 116.5
+        accelaration: 9.05
+        turn: 5.38
+    - isLocked: 1
+      carTypeShopIndex: 6
+      cashUpgradeAmount: 1322
+      coinUpgradeAmount: 1901
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 130.3
+        accelaration: 6.39
+        turn: 8.28
+    - isLocked: 1
+      carTypeShopIndex: 18
+      cashUpgradeAmount: 1611
+      coinUpgradeAmount: 1374
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 160
+        accelaration: 8
+        turn: 6.68
+    - isLocked: 1
+      carTypeShopIndex: 5
+      cashUpgradeAmount: 1741
+      coinUpgradeAmount: 1342
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 140
+        accelaration: 7
+        turn: 6
+    - isLocked: 1
+      carTypeShopIndex: 9
+      cashUpgradeAmount: 1212
+      coinUpgradeAmount: 1615
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 105
+        accelaration: 7
+        turn: 7.54
+    - isLocked: 1
+      carTypeShopIndex: 12
+      cashUpgradeAmount: 1935
+      coinUpgradeAmount: 1095
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 111
+        accelaration: 8
+        turn: 6
+    - isLocked: 1
+      carTypeShopIndex: 4
+      cashUpgradeAmount: 1267
+      coinUpgradeAmount: 1393
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 111.2
+        accelaration: 8.48
+        turn: 7.61
+    - isLocked: 1
+      carTypeShopIndex: 3
+      cashUpgradeAmount: 1045
+      coinUpgradeAmount: 1038
+      carData:
+        canZoomCamera: 1
+        maxSpeed: 114.1
+        accelaration: 6.75
+        turn: 5.4
+    - isLocked: 1
+      carTypeShopIndex: 10
+      cashUpgradeAmount: 1397
+      coinUpgradeAmount: 1476
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 90
+        accelaration: 8
+        turn: 7
+    - isLocked: 1
+      carTypeShopIndex: 8
+      cashUpgradeAmount: 1427
+      coinUpgradeAmount: 1322
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 119.8
+        accelaration: 8.23
+        turn: 6.6
+    - isLocked: 1
+      carTypeShopIndex: 13
+      cashUpgradeAmount: 1303
+      coinUpgradeAmount: 1948
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 115.7
+        accelaration: 6.99
+        turn: 5.1
+    - isLocked: 1
+      carTypeShopIndex: 15
+      cashUpgradeAmount: 1211
+      coinUpgradeAmount: 1663
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 120.8
+        accelaration: 6.6
+        turn: 8.5
+    - isLocked: 1
+      carTypeShopIndex: 16
+      cashUpgradeAmount: 1563
+      coinUpgradeAmount: 1792
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 120
+        accelaration: 9.45
+        turn: 6.53
+    - isLocked: 1
+      carTypeShopIndex: 17
+      cashUpgradeAmount: 1683
+      coinUpgradeAmount: 1490
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 99.5
+        accelaration: 7.79
+        turn: 9.21
+    - isLocked: 1
+      carTypeShopIndex: 14
+      cashUpgradeAmount: 1673
+      coinUpgradeAmount: 1395
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 118
+        accelaration: 6.99
+        turn: 5.4
+    - isLocked: 1
+      carTypeShopIndex: 19
+      cashUpgradeAmount: 1524
+      coinUpgradeAmount: 1698
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 120
+        accelaration: 9
+        turn: 6
+    - isLocked: 1
+      carTypeShopIndex: 20
+      cashUpgradeAmount: 1202
+      coinUpgradeAmount: 1768
+      carData:
+        canZoomCamera: 0
+        maxSpeed: 112
+        accelaration: 8.55
+        turn: 7.23
+  trackToSaveList:
+  - {fileID: 11400000, guid: a00ff675d661dba42b12c28b63628962, type: 2}
+  - {fileID: 11400000, guid: f3e268126b2131543818a1f82fec4716, type: 2}
+  - {fileID: 11400000, guid: e55983e412d163e40bdbb89b4e169e11, type: 2}
+  - {fileID: 11400000, guid: eee149c0d9d05d54f911fecb9acba9a6, type: 2}
+  - {fileID: 11400000, guid: 2a78438551f353d48a2e5eb86e89f2ed, type: 2}
+  - {fileID: 11400000, guid: 344212098237760449a8551181ac010e, type: 2}
+  - {fileID: 11400000, guid: 1940bef28e6c153459fae70018b4e9ab, type: 2}
+  - {fileID: 11400000, guid: 4b0eedd0baf2dba47875868c33654aee, type: 2}
+  - {fileID: 11400000, guid: db08d6da7fc6c2442885314d37e54bad, type: 2}
+  - {fileID: 11400000, guid: 6553873d0dae1464981545626fbd3247, type: 2}
+  - {fileID: 11400000, guid: 318f24ab752de45439779aab8af1ebe6, type: 2}
+  - {fileID: 11400000, guid: 80c7af129153e3248baf089c02522f50, type: 2}
+  - {fileID: 11400000, guid: d96b2464031fcb9408cfed9ed2c5e5a7, type: 2}
+  - {fileID: 11400000, guid: 15e32a1ba51df54459f17c5146b90d98, type: 2}
+  - {fileID: 11400000, guid: cdef89088dc9869479e295b1a85d5c44, type: 2}
+  - {fileID: 11400000, guid: 11fcd8d176948654c9bafca73d05003e, type: 2}
+  carsDataToSaveList:
+  - {fileID: 11400000, guid: 258b40621d39f734d935041c19556c85, type: 2}
+  - {fileID: 11400000, guid: 8608fa78cfb9a0c48a5873bac0225c6a, type: 2}
+  - {fileID: 11400000, guid: 448f997d940b12349ae06ad218da5e3c, type: 2}
+  - {fileID: 11400000, guid: 2a5006885d7c40943831a5e5ab86733e, type: 2}
+  - {fileID: 11400000, guid: 4e5e3e03e5912134eb4991d357b79fc7, type: 2}
+  - {fileID: 11400000, guid: 26be587c863a0b04b9446533073b4b6f, type: 2}
+  - {fileID: 11400000, guid: ae4ad696a5ccf7d4aa18ee1520ed4852, type: 2}
+  - {fileID: 11400000, guid: 91a89e374a94bc5499d81d4e0617f16c, type: 2}
+  - {fileID: 11400000, guid: 2abb5390970f17b4aa3659a03c913358, type: 2}
+  - {fileID: 11400000, guid: d7732ba7e7502e844995501bddd77ed0, type: 2}
+  - {fileID: 11400000, guid: ccbaaad68bbdf4d48b782b100fbcafdc, type: 2}
+  - {fileID: 11400000, guid: 4b40558e7bbd1944395e9a5192efdfa4, type: 2}
+  - {fileID: 11400000, guid: a50822136ffa8584fa36a99bd7ec4cb8, type: 2}
+  - {fileID: 11400000, guid: 558dbcc4965340743b51ac9967df6d72, type: 2}
+  - {fileID: 11400000, guid: be53cbf42bf37ec4f89c1eeeaeb0da20, type: 2}
+  - {fileID: 11400000, guid: dd278738058925d4aaa1445c4e5bc40c, type: 2}
+  - {fileID: 11400000, guid: e05bf78f4fd0cf84caa188e1c9ab788f, type: 2}
+  - {fileID: 11400000, guid: 5e62910071aeaa74980ad70fd306fce4, type: 2}
+  - {fileID: 11400000, guid: b1e122d4e8f90d043abd7590e06fa670, type: 2}
+  - {fileID: 11400000, guid: 8dc42b437bd77ef4f98e0307f2289299, type: 2}
+  - {fileID: 11400000, guid: b7562e582ce47c24ea3223f2436b7c1e, type: 2}

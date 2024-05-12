@@ -1,0 +1,24 @@
+Thank you for purchasing one or more of my soundtracks.
+By doing that, you are supporting the artist to keep doing his good stuffs.
+
+You may contact me by e-mail: vnipote@gmail.com
+
+
+
+Track specs:
+
+   TRACK NAME: Track Day
+        INTRO: NO () / YES (X)
+         LOOP: NO () / YES (X)
+          END: NO () / YES (X)
+     STANDARD: NO () / YES (X)
+       LENGTH: 00:01:06
+          BPM: 126
+
+Guide:
+"INTRO" consists of a short file that serves as the song's introduction.
+"LOOP" is the whole section of music that can be looped seamlessly.
+"END" may optionally be played after the "LOOP" section, so the music won't have an abrupt ending.
+"STANDARD" stands for a single file that may contain all of the segments aforementioned.
+"LENGTH" is the "STANDARD" file length measured in hh:mm:ss.
+"BPM" means Beats Per Minute, also known in music as tempo.

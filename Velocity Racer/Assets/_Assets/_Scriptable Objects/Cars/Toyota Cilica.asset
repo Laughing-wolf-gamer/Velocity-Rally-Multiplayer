@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Toyota Cilica
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: df0a8541c54ae6e4d935795e7832171e, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 20
+    cashUpgradeAmount: 1202
+    coinUpgradeAmount: 1768
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 112
+      accelaration: 8.55
+      turn: 7.23
+  coinsPrice: 13372
+  carBodyFull: {fileID: 6191831305234746926, guid: d1ff6249ba8c56147a68563dda1a27da,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 111.7 Km/h
+  - Heading: 'Accelration :'
+    details: 8.55 km/h
+  - Heading: 'Turn Control : '
+    details: 7.23

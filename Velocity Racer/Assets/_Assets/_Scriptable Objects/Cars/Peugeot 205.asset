@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Peugeot 205
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 6119404f11dc7f048986813d4f6efd38, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 13
+    cashUpgradeAmount: 1303
+    coinUpgradeAmount: 1948
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 115.7
+      accelaration: 6.99
+      turn: 5.1
+  coinsPrice: 7723
+  carBodyFull: {fileID: 8792513435369432955, guid: ca1851f67b80f634689ec03167445f58,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 115.7 Km/h
+  - Heading: 'Accelration :'
+    details: 6.99 m/s
+  - Heading: 'Turn Control : '
+    details: 5.1 m/s

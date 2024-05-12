@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Ford RS200
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 72cc75120455a2c4f8912aa8633b475a, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 6
+    cashUpgradeAmount: 1322
+    coinUpgradeAmount: 1901
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 130.3
+      accelaration: 6.39
+      turn: 8.28
+  coinsPrice: 14112
+  carBodyFull: {fileID: 5004675489316345664, guid: a850ea35fac6a7d43abb967014d04e61,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 130.3 Km/h
+  - Heading: 'Accelration :'
+    details: 6.39 m/s
+  - Heading: 'Turn Control : '
+    details: 8.28 m/s

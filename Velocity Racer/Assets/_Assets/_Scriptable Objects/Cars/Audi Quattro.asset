@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Audi Quattro
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 86056ee9f13ceda41b31945ef0bce3f2, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 1
+    cashUpgradeAmount: 1576
+    coinUpgradeAmount: 1403
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 119.7
+      accelaration: 7
+      turn: 7
+  coinsPrice: 17771
+  carBodyFull: {fileID: 6746586444089529804, guid: fe3cf844aa6da1b4e989692624cf1621,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 119.7 Km/h
+  - Heading: 'Accelration :'
+    details: 7 m/s
+  - Heading: 'Turn Control : '
+    details: 7 m/s

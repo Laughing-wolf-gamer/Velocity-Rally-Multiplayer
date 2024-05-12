@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Ford Escort Rs1800
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: fa6d67bd5901859418cff72e35d0bcd0, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 11
+    cashUpgradeAmount: 1836
+    coinUpgradeAmount: 1669
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 116.5
+      accelaration: 9.05
+      turn: 5.38
+  coinsPrice: 17426
+  carBodyFull: {fileID: 2129489153274440057, guid: e1ea91f4086516e49b9ec76d99bd9e56,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 116.5 km/h
+  - Heading: 'Accelration :'
+    details: 9.05 m/s
+  - Heading: 'Turn :'
+    details: 5.38 m/s

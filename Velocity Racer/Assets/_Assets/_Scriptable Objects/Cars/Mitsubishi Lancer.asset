@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Mitsubishi Lancer
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: 463bfc55c1b2ec44cadc83b64008aca0, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 8
+    cashUpgradeAmount: 1427
+    coinUpgradeAmount: 1322
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 119.8
+      accelaration: 8.23
+      turn: 6.6
+  coinsPrice: 11161
+  carBodyFull: {fileID: 7711513074702130915, guid: d54a21661f226ef4092408762e8af95e,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 119.8 Km/h
+  - Heading: 'Accelration :'
+    details: 8.23 m/s
+  - Heading: 'Turn Control : '
+    details: 6.6 m/s

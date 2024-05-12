@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ae1889db381f04a84e33a117817685, type: 3}
+  m_Name: GameSettingsSO
+  m_EditorClassIdentifier: 
+  currentTrack: {fileID: 11400000, guid: a00ff675d661dba42b12c28b63628962, type: 2}
+  currentLap: 1
+  maxPlayer: 4
+  hasBots: 1
+  maxWaitingTime: 10
+  gameProfileData:
+    username: 
+    carTypeShop: 0
+  playerCarBody: {fileID: 11400000, guid: 39029febba711cf4384b5437c622631d, type: 2}
+  AllCarTypes:
+  - {fileID: -276228827186676248, guid: 5c291d0c83c11e54d88ff5cdc79abb14, type: 3}
+  - {fileID: 925859868809977087, guid: 2260a31d6338fbc4399693f6faaccf18, type: 3}
+  - {fileID: 4581422702775003634, guid: 4ae648a3860b58d479505c82e3f962d3, type: 3}
+  - {fileID: 6977582332494092358, guid: 61cdc655e2bc1824aa66289ae8bb2ac3, type: 3}
+  - {fileID: 3730756440054402719, guid: 8658943d3ccae0542b5a01fe4ae51645, type: 3}
+  - {fileID: 7081933403163399507, guid: 7c495bebc9d3e2a4c92c2c6c8de0520e, type: 3}
+  - {fileID: 3596798340987970803, guid: cb115be83a2d1b04085cb10beeccef56, type: 3}
+  - {fileID: -8118519954362771620, guid: ec748c877f21e6e4389592ad323b7723, type: 3}
+  - {fileID: 2184633829755965701, guid: ae3d310926cf14f41982795c89d4cd26, type: 3}
+  - {fileID: 5232079133234496869, guid: f72ec37a9e2eabf408eae19db3bbbe3f, type: 3}
+  - {fileID: 6199910255689184949, guid: 32d9bb1e2bcc29740aea0854ec2ce8bd, type: 3}
+  - {fileID: 3928650825015960609, guid: 5ac2d88392949bd49bd140f23e1319d0, type: 3}
+  - {fileID: -716967189590955466, guid: 23fe27e9b0c3a8a4bb6c403fa3b532e9, type: 3}
+  - {fileID: 8940435652148749392, guid: a8f96473108af4c4ebc5d808508dfd15, type: 3}
+  - {fileID: 3905950603106794937, guid: 19592142b8be85341ad31a681315086b, type: 3}
+  - {fileID: 1520208181453365006, guid: e8cfb73c7a0d85d4084056473fde7a13, type: 3}
+  - {fileID: 178237669395495657, guid: 5848a83dfe9d59f4ea1f12f4965560c5, type: 3}
+  - {fileID: 957050424269591712, guid: 754dbcbc8f567744d8d9fc3b64116497, type: 3}
+  - {fileID: 4343899480117249459, guid: b264d6efcba8b2a41b5ce79bf62ff4d5, type: 3}
+  - {fileID: 2880130936177964131, guid: a7e175e40670ac84aa8a951f24a443b3, type: 3}
+  - {fileID: 2880130936177964131, guid: e20b15657a9e4b140b26b553f9725003, type: 3}
+  gameData: {fileID: 11400000, guid: 4665bd71186e05d42bc2857f066f9169, type: 2}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8a516ecdd0b04fb56bd4963400081, type: 3}
+  m_Name: Ford Cosworth
+  m_EditorClassIdentifier: 
+  carIcon: {fileID: 21300000, guid: bdd9c5282c2dbb64aad66f6d5926dd5c, type: 3}
+  carSaveData:
+    isLocked: 1
+    carTypeShop: 7
+    cashUpgradeAmount: 1720
+    coinUpgradeAmount: 1599
+    carData:
+      canZoomCamera: 0
+      maxSpeed: 112.4
+      accelaration: 7.4
+      turn: 5.7
+  coinsPrice: 10274
+  carBodyFull: {fileID: 5688720143573509085, guid: 58b2b4b63e8c2b44ea90b11ddfd8a7ef,
+    type: 3}
+  carDetailsLIst:
+  - Heading: 'Top Speed :'
+    details: 112.4 Km/h
+  - Heading: 'Accelration :'
+    details: 7.4 m/s
+  - Heading: 'Turn Control : '
+    details: 5.7 m/s
