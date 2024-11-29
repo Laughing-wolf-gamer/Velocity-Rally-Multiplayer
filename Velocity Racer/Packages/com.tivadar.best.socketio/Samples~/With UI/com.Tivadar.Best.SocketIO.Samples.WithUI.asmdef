@@ -1,0 +1,17 @@
+{
+    "name": "com.Tivadar.Best.SocketIO.Samples.WithUI",
+    "rootNamespace": "Best.SocketIO.Examples",
+    "references": [
+        "GUID:9069ac25d95ca17448a247f3bb1c769f",
+        "GUID:9c640a58f2e0db141b0e87cea61a002e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

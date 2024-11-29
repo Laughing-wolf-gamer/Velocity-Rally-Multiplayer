@@ -1,0 +1,27 @@
+{
+  "name": "com.tivadar.best.socketio",
+  "displayName": "Best Socket.IO",
+  "description": "Best SocketIO is a leading Unity networking library engineered for a smooth integration of the Socket.IO technology.",
+  "version": "3.0.3",
+  "unity": "2021.1",
+  "documentationUrl": "https://bestdocshub.pages.dev/SocketIO/",
+  "changelogUrl": "https://bestdocshub.pages.dev/SocketIO/changelog/",
+  "licensesUrl": "https://bestdocshub.pages.dev/HTTP/third-party-notices/",
+  "author": {
+    "name": "Tivadar György Nagy",
+    "email": "besthttp@gmail.com",
+    "url": "https://bestdocshub.pages.dev/"
+  },
+  "keywords": [ "best", "besthttp", "http", "https", "tls", "https", "socketio", "socket.io", "socket" ],
+  "dependencies": {
+    "com.tivadar.best.http": "3.0.0",
+    "com.tivadar.best.websockets": "3.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Simple Sample",
+      "description": "Contains sample codes for various Socket.IO related scenarios.",
+      "path": "Samples~/With UI"
+    }
+  ]
+}

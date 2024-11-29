@@ -14,35 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   socialMediaProfilePicture: {fileID: 0}
   playerNameFromSocialMedia: 
-  OnPc: 0
+  OnPc: 1
   levelSystem: {fileID: 11400000, guid: c683e2a821dc78343b57a3b998c4d715, type: 2}
   saveData:
     isLoggedIn: 0
     currentDay: 0
-    totalCash: 0
-    totalCoins: 0
+    totalCash: 25
+    totalCoins: 50
     carType: 0
     profileSaveData:
-      uniqueIdNumber: 
-      matchWonNumber: 0
-      totalRacesJoined: 0
-      medalsTotalRecived: 0
+      uniqueIdNumber: '#Abh117333678'
+      matchWonNumber: 2
+      totalRacesJoined: 1
+      medalsTotalRecived: 3
       totalGoldTropy: 0
-      totalTimePlayed: 0
+      totalTimePlayed: 46.01653
     settingsSaveData:
-      firstRun: 1
-      firstRace: 1
+      firstRun: 0
+      firstRace: 0
       hasAdsInGame: 1
       isReviewd: 1
       isVFXOn: 1
       isHapticsOn: 1
-      musicVolumeAmount: 1
+      musicVolumeAmount: 0.8112761
       sfxVolumeAmount: 1
       quaityIndex: 0
       frameRate: 60
       speedIsKmph: 1
       showNetworkPing: 1
-      regionName: asia
+      regionName: 
       controllType: 0
       controllsSensitivity: 10
     dailyRewards:
