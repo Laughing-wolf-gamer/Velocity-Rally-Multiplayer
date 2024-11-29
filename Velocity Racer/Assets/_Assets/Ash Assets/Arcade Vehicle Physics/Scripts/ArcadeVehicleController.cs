@@ -25,7 +25,7 @@ namespace ArcadeVP {
         public RaycastHit hit;
         [SerializeField] private AnimationCurve frictionCurve;
         [SerializeField] private AnimationCurve turnCurve;
-        [SerializeField] private PhysicMaterial frictionMaterial;
+        [SerializeField] private PhysicsMaterial frictionMaterial;
         [Header("Visuals")]
         [SerializeField] private Transform BodyMesh;
         [SerializeField] private Transform[] FrontWheels = new Transform[2];
@@ -108,7 +108,7 @@ namespace ArcadeVP {
 
 
         private void FixedUpdate() {
-            carVelocity = carBody.transform.InverseTransformDirection(carBody.velocity);
+            carVelocity = carBody.transform.InverseTransformDirection(carBody.linearVelocity);
 
             if (Mathf.Abs(carVelocity.x) > 0) {
                 //changes friction according to sideways speed of car
@@ -151,9 +151,9 @@ namespace ArcadeVP {
                 }
                 else if (movementMode == MovementMode.Velocity) {
                     if (Mathf.Abs(verticalInput) > 0.1f && handBrakeInput < 0.1f && !kartLike) {
-                        rb.velocity = Vector3.Lerp(rb.velocity, carBody.transform.forward * verticalInput * currentMaxSpeed, accelaration / 10 * Time.deltaTime);
+                        rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, carBody.transform.forward * verticalInput * currentMaxSpeed, accelaration / 10 * Time.deltaTime);
                     }  else if (Mathf.Abs(verticalInput) > 0.1f && kartLike) {
-                        rb.velocity = Vector3.Lerp(rb.velocity, carBody.transform.forward * verticalInput * currentMaxSpeed, accelaration / 10 * Time.deltaTime);
+                        rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, carBody.transform.forward * verticalInput * currentMaxSpeed, accelaration / 10 * Time.deltaTime);
                     }
                 }
 
@@ -172,7 +172,7 @@ namespace ArcadeVP {
                 }
 
                 carBody.MoveRotation(Quaternion.Slerp(carBody.rotation, Quaternion.FromToRotation(carBody.transform.up, Vector3.up) * carBody.transform.rotation, 0.02f));
-                rb.velocity = Vector3.Lerp(rb.velocity, rb.velocity + Vector3.down * gravity, Time.deltaTime * gravity);
+                rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, rb.linearVelocity + Vector3.down * gravity, Time.deltaTime * gravity);
             }
 
         }
@@ -248,7 +248,7 @@ namespace ArcadeVP {
 
         }
         public Vector3 GetRigidBodyVelocity(){
-            return rb.velocity;
+            return rb.linearVelocity;
         }
         public float GetVelocity(bool isKmph = true){
             float speedInKmph = currentVelocity;

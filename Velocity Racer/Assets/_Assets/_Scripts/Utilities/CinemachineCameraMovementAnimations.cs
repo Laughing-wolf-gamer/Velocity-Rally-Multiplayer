@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 public class CinemachineCameraMovementAnimations : MonoBehaviour {
     [SerializeField] private CinemachineDollyCart cinemachineDollyCart;
     [SerializeField] private CinemachineSmoothPath path;

@@ -18,7 +18,7 @@ public class Pun2_RigidbodySync : MonoBehaviourPun, IPunObservable {
             //We own this player: send the others our data
             stream.SendNext(transform.position);
             stream.SendNext(transform.rotation);
-            stream.SendNext(rb.velocity);
+            stream.SendNext(rb.linearVelocity);
             stream.SendNext(rb.angularVelocity);
         } else {
             //Network player, receive data
@@ -36,7 +36,7 @@ public class Pun2_RigidbodySync : MonoBehaviourPun, IPunObservable {
             //Update Object position and Rigidbody parameters
             transform.position = Vector3.Lerp(transform.position, latestPos, Time.deltaTime * 5);
             transform.rotation = Quaternion.Lerp(transform.rotation, latestRot, Time.deltaTime * 5);
-            rb.velocity = velocity;
+            rb.linearVelocity = velocity;
             rb.angularVelocity = angularVelocity;
         }
     }

@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 
 namespace GamerWolf.Utils {
     [RequireComponent(typeof(CinemachineVirtualCamera))]
@@ -17,7 +17,7 @@ namespace GamerWolf.Utils {
         #endregion
         public void Shake(float intensity,float time){
             CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-            cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
+            cinemachineBasicMultiChannelPerlin.AmplitudeGain = intensity;
             shakeTimer = time;
             shakeTimeTotal = time;
             startingIntensity = intensity;
@@ -35,7 +35,7 @@ namespace GamerWolf.Utils {
                 shakeTimer -= Time.deltaTime;
                 if(shakeTimer <= 0){
                     CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-                    cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = Mathf.Lerp(startingIntensity,0f,(1 - (shakeTimer / shakeTimeTotal)));
+                    cinemachineBasicMultiChannelPerlin.AmplitudeGain = Mathf.Lerp(startingIntensity,0f,(1 - (shakeTimer / shakeTimeTotal)));
                 }
             }
         }

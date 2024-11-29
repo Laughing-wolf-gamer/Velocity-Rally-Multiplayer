@@ -76,3 +76,22 @@ The following packages were updated:
   com.unity.render-pipelines.universal from version 14.0.10 to 14.0.11
   com.unity.textmeshpro from version 3.0.6 to 3.0.7
   com.unity.visualscripting from version 1.9.2 to 1.9.4
+
+=== Fri Nov 29 16:10:31 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.cinemachine from version 2.10.1 to 2.10.3
+  com.unity.purchasing from version 4.11.0 to 4.12.2
+  com.unity.render-pipelines.universal from version 14.0.11 to 17.0.3
+  com.unity.test-framework from version 1.1.33 to 1.4.5
+  com.unity.timeline from version 1.7.6 to 1.8.7
+  com.unity.ugui from version 1.0.0 to 2.0.0
+  com.unity.visualscripting from version 1.9.4 to 1.9.5
+The following packages were removed:
+  com.unity.textmeshpro@3.0.7

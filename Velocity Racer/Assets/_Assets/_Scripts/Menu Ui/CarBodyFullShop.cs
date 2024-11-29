@@ -1,6 +1,6 @@
 using TMPro;
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 public class CarBodyFullShop : MonoBehaviour {

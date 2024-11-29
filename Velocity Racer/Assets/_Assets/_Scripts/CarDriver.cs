@@ -2,7 +2,7 @@
 using ArcadeVP;
 using Photon.Pun;
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine.UI;
 using GamerWolf.Utils;
 using UnityEngine.Rendering;

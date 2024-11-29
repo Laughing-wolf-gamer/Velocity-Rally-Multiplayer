@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 
 public class CarCameraFollow : MonoBehaviour {
     [SerializeField] private CinemachineVirtualCamera lookCam;
@@ -39,7 +39,7 @@ public class CarCameraFollow : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		Vector3 localVelocity = car.InverseTransformDirection(carBody.velocity);
+		Vector3 localVelocity = car.InverseTransformDirection(carBody.linearVelocity);
 		if (localVelocity.z < -0.1f){
 			Vector3 temp = rotationVector; //because temporary variables seem to be removed after a closing bracket "}" we can use the same variable name multiple times.
 			temp.y = car.eulerAngles.y + 180;
@@ -50,7 +50,7 @@ public class CarCameraFollow : MonoBehaviour {
 			temp.y = car.eulerAngles.y;
 			rotationVector = temp;
 		}
-		float acc = carBody.velocity.magnitude;
+		float acc = carBody.linearVelocity.magnitude;
         if(canZoom){
 		    lookCam.m_Lens.FieldOfView = defaultFOV + acc * zoomRatio * Time.deltaTime;  //he removed * Time.deltaTime but it works better if you leave it like this.
         }
