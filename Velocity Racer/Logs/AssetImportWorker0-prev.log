@@ -1,331 +1,148 @@
-2024-11-11T13:01:26.861Z|0x8c7c|Using pre-set license
-2024-11-11T13:01:26.861Z|0x8c7c|Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
-2024-11-11T13:01:26.861Z|0x8c7c|OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
-2024-11-11T13:01:26.861Z|0x8c7c|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-2024-11-11T13:01:26.865Z|0x8c7c|
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7937 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
 COMMAND LINE ARGUMENTS:
-2024-11-11T13:01:26.865Z|0x8c7c|C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
-2024-11-11T13:01:26.865Z|0x8c7c|-adb2
-2024-11-11T13:01:26.865Z|0x8c7c|-batchMode
-2024-11-11T13:01:26.865Z|0x8c7c|-noUpm
-2024-11-11T13:01:26.865Z|0x8c7c|-name
-2024-11-11T13:01:26.865Z|0x8c7c|AssetImportWorker0
-2024-11-11T13:01:26.865Z|0x8c7c|-projectPath
-2024-11-11T13:01:26.865Z|0x8c7c|C:/Users/abc4d/Documents/MyDreamgame/Full StackLearning/Velocity-Rally-Multiplayer/Velocity Racer
-2024-11-11T13:01:26.865Z|0x8c7c|-logFile
-2024-11-11T13:01:26.865Z|0x8c7c|Logs/AssetImportWorker0.log
-2024-11-11T13:01:26.865Z|0x8c7c|-srvPort
-2024-11-11T13:01:26.865Z|0x8c7c|55690
-2024-11-11T13:01:26.865Z|0x8c7c|Successfully changed project path to: C:/Users/abc4d/Documents/MyDreamgame/Full StackLearning/Velocity-Rally-Multiplayer/Velocity Racer
-2024-11-11T13:01:26.872Z|0x8c7c|C:/Users/abc4d/Documents/MyDreamgame/Full StackLearning/Velocity-Rally-Multiplayer/Velocity Racer
-2024-11-11T13:01:26.872Z|0x8c7c|[UnityMemory] Configuration Parameters - Can be set up in boot.config
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-bucket-allocator-granularity=16"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-bucket-allocator-bucket-count=8"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-bucket-allocator-block-size=33554432"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-bucket-allocator-block-count=8"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-main-allocator-block-size=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-thread-allocator-block-size=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-gfx-main-allocator-block-size=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-gfx-thread-allocator-block-size=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-cache-allocator-block-size=4194304"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-typetree-allocator-block-size=2097152"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-bucket-allocator-granularity=16"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-bucket-allocator-block-count=8"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-allocator-block-size=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-profiler-editor-allocator-block-size=1048576"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-main=16777216"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-job-temp-allocator-block-size=2097152"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-job-temp-allocator-block-size-background=1048576"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-allocator-temp-initial-block-size-main=262144"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-background-worker=32768"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-job-worker=262144"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-preload-manager=33554432"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-audio-worker=65536"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-cloud-worker=32768"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2024-11-11T13:01:26.873Z|0x8c7c|    "memorysetup-temp-allocator-size-gfx=262144"
-2024-11-11T13:01:26.877Z|0x8c7c|Player connection [35964]  Target information:
+C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Abhis/OneDrive/Documents/Game Dev Projects/Unity Game Project/Velocity-Rally-Multiplayer/Velocity Racer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51168
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Abhis/OneDrive/Documents/Game Dev Projects/Unity Game Project/Velocity-Rally-Multiplayer/Velocity Racer
+C:/Users/Abhis/OneDrive/Documents/Game Dev Projects/Unity Game Project/Velocity-Rally-Multiplayer/Velocity Racer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14448]  Target information:
 
-2024-11-11T13:01:26.877Z|0x8c7c|Player connection [35964]  * "[IP] 192.168.29.147 [Port] 0 [Flags] 2 [Guid] 2983755630 [EditorId] 2983755630 [Version] 1048832 [Id] WindowsEditor(7,Abhi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14448]  * "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3479060339 [EditorId] 3479060339 [Version] 1048832 [Id] WindowsEditor(7,Abhishek_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-2024-11-11T13:01:26.879Z|0x8c7c|Player connection [35964] Host joined multi-casting on [225.0.0.222:54997]...
-2024-11-11T13:01:26.879Z|0x8c7c|Player connection [35964] Host joined alternative multi-casting on [225.0.0.222:34997]...
-2024-11-11T13:01:26.893Z|0x8c7c|[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-2024-11-11T13:01:27.073Z|0x8c7c|Refreshing native plugins compatible for Editor in 68.22 ms, found 13 plugins.
-2024-11-11T13:01:27.073Z|0x8c7c|Preloading 0 native plugins for Editor in 0.00 ms.
-2024-11-11T13:01:27.074Z|0x8c7c|Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
-2024-11-11T13:01:27.074Z|0x8c7c|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
-2024-11-11T13:01:27.074Z|0x8c7c|[Subsystems] Discovering subsystems at path C:/Users/abc4d/Documents/MyDreamgame/Full StackLearning/Velocity-Rally-Multiplayer/Velocity Racer/Assets
-2024-11-11T13:01:27.075Z|0x8c7c|GfxDevice: creating device client; threaded=0; jobified=0
-2024-11-11T13:01:27.240Z|0x8c7c|Direct3D:
-2024-11-11T13:01:27.240Z|0x8c7c|    Version:  Direct3D 11.0 [level 11.1]
-2024-11-11T13:01:27.240Z|0x8c7c|    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
-2024-11-11T13:01:27.240Z|0x8c7c|    Vendor:   NVIDIA
-2024-11-11T13:01:27.240Z|0x8c7c|    VRAM:     5996 MB
-2024-11-11T13:01:27.240Z|0x8c7c|    Driver:   32.0.15.6603
-2024-11-11T13:01:27.482Z|0x8c7c|Initialize mono
-2024-11-11T13:01:27.482Z|0x8c7c|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
-2024-11-11T13:01:27.482Z|0x8c7c|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-2024-11-11T13:01:27.482Z|0x8c7c|Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-2024-11-11T13:01:27.482Z|0x8c7c|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
-2024-11-11T13:01:27.560Z|0x8c7c|Begin MonoManager ReloadAssembly
-2024-11-11T13:01:27.813Z|0x8c7c|Registering precompiled unity dll's ...
-2024-11-11T13:01:27.815Z|0x8c7c|Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-2024-11-11T13:01:27.818Z|0x8c7c|Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-2024-11-11T13:01:27.820Z|0x8c7c|Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-2024-11-11T13:01:27.823Z|0x8c7c|Registered in 0.010135 seconds.
-2024-11-11T13:01:28.053Z|0x8c7c|- Loaded All Assemblies, in  0.494 seconds
-2024-11-11T13:01:28.094Z|0x8c7c|Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-2024-11-11T13:01:28.098Z|0x8c7c|Native extension for iOS target not found
-2024-11-11T13:01:28.107Z|0x8c7c|Native extension for Android target not found
-2024-11-11T13:01:28.453Z|0x8c7c|Android Extension - Scanning For ADB Devices 303 ms2024-11-11T13:01:28.453Z|0x8c7c|
-2024-11-11T13:01:28.618Z|0x8c7c|Mono: successfully reloaded assembly
-2024-11-11T13:01:28.631Z|0x8c7c|- Finished resetting the current domain, in  0.579 seconds
-2024-11-11T13:01:28.633Z|0x8c7c|Domain Reload Profiling: 1071ms
-	BeginReloadAssembly (190ms)
+Player connection [14448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 121.96 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Abhis/OneDrive/Documents/Game Dev Projects/Unity Game Project/Velocity-Rally-Multiplayer/Velocity Racer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.009059 seconds.
+- Loaded All Assemblies, in  0.778 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 433 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 1942ms
+	BeginReloadAssembly (324ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (191ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (317ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (244ms)
+			BuildScriptInfoCaches (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (579ms)
+	FinalizeReload (1167ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
+		SetupLoadedEditorAssemblies (1067ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (376ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			InitializePlatformSupportModulesInManaged (565ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-2024-11-11T13:01:28.905Z|0x8c7c|========================================================================
-2024-11-11T13:01:28.905Z|0x8c7c|Worker process is ready to serve import requests
-2024-11-11T13:01:31.137Z|0x8c7c|Caller must complete domain reload
-2024-11-11T13:01:31.212Z|0x8c7c|Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.178/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
 Symbol file LoadedFromMemory is not a mono symbol file
-2024-11-11T13:01:32.357Z|0x8c7c|- Loaded All Assemblies, in  1.146 seconds
-2024-11-11T13:01:32.513Z|0x8c7c|Native extension for WindowsStandalone target not found
-2024-11-11T13:01:32.516Z|0x8c7c|Native extension for iOS target not found
-2024-11-11T13:01:32.526Z|0x8c7c|Native extension for Android target not found
-2024-11-11T13:01:32.806Z|0x8c7c|GPGSUpgrader start
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs:38)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs Line: 38)
-
-2024-11-11T13:01:32.872Z|0x8c7c|System.IO.IOException: Sharing violation on path C:\Users\abc4d\Documents\MyDreamgame\Full StackLearning\Velocity-Rally-Multiplayer\Velocity Racer\ProjectSettings\GooglePlayGameSettings.txt
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
-  at GooglePlayGames.Editor.GPGSProjectSettings.Save () [0x00035] in C:\Users\abc4d\Documents\MyDreamgame\Full StackLearning\Velocity-Rally-Multiplayer\Velocity Racer\Assets\GooglePlayGames\com.google.play.games\Editor\GPGSProjectSettings.cs:182 
-  at GooglePlayGames.Editor.GPGSUpgrader..cctor () [0x0003a] in C:\Users\abc4d\Documents\MyDreamgame\Full StackLearning\Velocity-Rally-Multiplayer\Velocity Racer\Assets\GooglePlayGames\com.google.play.games\Editor\GPGSUpgrader.cs:43 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-2024-11-11T13:01:33.044Z|0x8c7c|Package Manager log level set to [2]
-2024-11-11T13:01:33.044Z|0x8c7c|[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-2024-11-11T13:01:33.044Z|0x8c7c|[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-2024-11-11T13:01:33.044Z|0x8c7c|[Package Manager] Cannot connect to Unity Package Manager local server
-2024-11-11T13:01:33.302Z|0x8c7c|Mono: successfully reloaded assembly
-2024-11-11T13:01:33.315Z|0x8c7c|- Finished resetting the current domain, in  0.957 seconds
-2024-11-11T13:01:33.316Z|0x8c7c|Domain Reload Profiling: 2097ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (883ms)
-		LoadAssemblies (702ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (265ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (190ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (958ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-2024-11-11T13:01:33.671Z|0x8c7c|Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-2024-11-11T13:01:33.837Z|0x8c7c|Refreshing native plugins compatible for Editor in 34.34 ms, found 13 plugins.
-2024-11-11T13:01:33.837Z|0x8c7c|Preloading 0 native plugins for Editor in 0.00 ms.
-2024-11-11T13:01:33.880Z|0x6f40|Unloading 9194 Unused Serialized files (Serialized files now loaded: 0)
-2024-11-11T13:01:33.887Z|0x8c7c|Unloading 60 unused Assets / (471.3 KB). Loaded Objects now: 9698.
-Memory consumption went from 297.9 MB to 297.4 MB.
-2024-11-11T13:01:33.888Z|0x8c7c|Total: 7.248000 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.428600 ms MarkObjects: 6.061100 ms  DeleteObjects: 0.220600 ms)
-
-2024-11-11T13:01:33.891Z|0x8c7c|AssetImportParameters requested are different than current active one (requested -> active):
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-2024-11-11T13:01:33.891Z|0x8c7c|  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-2024-11-11T13:02:20.705Z|0x8c7c|========================================================================
-2024-11-11T13:02:20.705Z|0x8c7c|Received Prepare
-2024-11-11T13:02:21.021Z|0x8c7c|Caller must complete domain reload
-2024-11-11T13:02:21.089Z|0x8c7c|Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-2024-11-11T13:02:21.642Z|0x8c7c|- Loaded All Assemblies, in  0.554 seconds
-2024-11-11T13:02:22.298Z|0x8c7c|Native extension for WindowsStandalone target not found
-2024-11-11T13:02:22.301Z|0x8c7c|Native extension for iOS target not found
-2024-11-11T13:02:22.311Z|0x8c7c|Native extension for Android target not found
-2024-11-11T13:02:22.575Z|0x8c7c|GPGSUpgrader start
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs:38)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs Line: 38)
-
-2024-11-11T13:02:22.674Z|0x8c7c|GPGSUpgrader done
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs:57)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs Line: 57)
-
-2024-11-11T13:02:22.765Z|0x8c7c|[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-2024-11-11T13:02:22.765Z|0x8c7c|[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-2024-11-11T13:02:22.765Z|0x8c7c|[Package Manager] Cannot connect to Unity Package Manager local server
-2024-11-11T13:02:22.820Z|0x8c7c|System.IO.IOException: Sharing violation on path C:\Users\abc4d\Documents\MyDreamgame\Full StackLearning\Velocity-Rally-Multiplayer\Velocity Racer\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
-  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x00018] in <c98e3694640749789660e5c01aaeeab6>:0 
-  at Google.ProjectSettings.Load () [0x0001d] in <c98e3694640749789660e5c01aaeeab6>:0 
-  at Google.ProjectSettings.LoadIfEmpty () [0x00023] in <c98e3694640749789660e5c01aaeeab6>:0 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue, Google.SettingsLocation location) [0x00035] in <c98e3694640749789660e5c01aaeeab6>:0 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue) [0x0000a] in <c98e3694640749789660e5c01aaeeab6>:0 
-  at Google.IOSResolver.get_VerboseLoggingEnabled () [0x00001] in <17ab82eb09d843c18afe077e2b523205>:0 
-  at Google.IOSResolver..cctor () [0x00223] in <17ab82eb09d843c18afe077e2b523205>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-2024-11-11T13:02:23.018Z|0x8c7c|Mono: successfully reloaded assembly
-2024-11-11T13:02:23.031Z|0x8c7c|- Finished resetting the current domain, in  1.389 seconds
-2024-11-11T13:02:23.031Z|0x8c7c|Domain Reload Profiling: 1936ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (381ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1389ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (724ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (412ms)
-			ProcessInitializeOnLoadMethodAttributes (184ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-2024-11-11T13:02:24.264Z|0x8c7c|Refreshing native plugins compatible for Editor in 40.20 ms, found 13 plugins.
-2024-11-11T13:02:24.264Z|0x8c7c|Preloading 0 native plugins for Editor in 0.00 ms.
-2024-11-11T13:02:24.309Z|0x3f54|Unloading 9032 Unused Serialized files (Serialized files now loaded: 0)
-2024-11-11T13:02:24.316Z|0x8c7c|Unloading 42 unused Assets / (439.9 KB). Loaded Objects now: 9715.
-Memory consumption went from 268.2 MB to 267.8 MB.
-2024-11-11T13:02:24.316Z|0x8c7c|Total: 6.722100 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.347500 ms MarkObjects: 5.725500 ms  DeleteObjects: 0.124800 ms)
-
-2024-11-11T13:02:24.316Z|0x8c7c|Prepare: number of updated asset objects reloaded= 0
-2024-11-11T13:02:24.318Z|0x8c7c|AssetImportParameters requested are different than current active one (requested -> active):
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-2024-11-11T13:02:24.318Z|0x8c7c|  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
